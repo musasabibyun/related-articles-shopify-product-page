@@ -575,7 +575,7 @@
           {% endfor %}
         {% endfor %}
 
-        {% if count >= section.settings.slider_size %}
+        {% if count >= section.settings.articles_size %}
           {% break %}
         {% endif %}
       {% endfor %}
@@ -1195,7 +1195,7 @@
     },
     {
       "type": "range",
-      "id": "slider_size",
+      "id": "articles_size",
       "min": 1,
       "max": 8,
       "label": "記事数",
