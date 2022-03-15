@@ -1,0 +1,90 @@
+/* 
+  商品詳細ページ 関連記事 
+  'main-product__related-articles.liquid' > 'related_articles' 部分用 CSS
+
+  Mar 2022 by Shuntaro Murakami
+*/
+
+.related-articles {
+  width: 100%;
+  padding: 40px 0;
+}
+.related-articles > .title {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: .08em;
+  line-height: 1.7;
+}
+.related-articles > .wrap {
+  width: 100%;
+    max-width: 1200px;
+  margin: 20px auto 0;
+}
+.related-articles > .wrap .article_item {
+  margin-bottom: 20px;
+}
+.related-articles > .wrap .article_item a {
+  display: flex;
+    justify-content: space-between;
+  text-decoration: inherit;
+  color: inherit;
+}
+.related-articles > .wrap .article_item a:hover {
+  transition: all 0.3s;
+  opacity: 0.8;
+}
+.related-articles .article_item .eyecatch {
+  width: 31%;
+}
+.related-articles .article_item .eyecatch > div {
+  display: block;
+  padding-top: 60%;
+  background: center/cover no-repeat;
+}
+.related-articles .article_item .info {
+  width: 66%;
+  padding-top: 33px;
+}
+.related-articles .article_item .info .title {
+  margin-top: 3px;
+  width: 100%;
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: .08em;
+  line-height: 1.4;
+}
+.related-articles .article_item .info .desc {
+  margin-top: 12px;
+  width: 100%;
+  text-align: left;
+  font-size: 14px;
+  letter-spacing: .08em;
+  line-height: 1.4;
+}
+
+/* 1050px 以下 */
+@media screen and (max-width: 1050px) {
+  .related-articles .article_item .eyecatch {
+    width: 41%;}
+  .related-articles .article_item .info {
+    width: 56%;
+    padding-top: 10px;}
+}
+
+/* 750px 以下 */
+@media screen and (max-width: 750px) {
+  .related-articles > .wrap .article_item {
+    margin-bottom: 30px;}
+  .related-articles > .wrap .article_item:last-child {
+    margin-bottom: 0;}
+    .related-articles > .wrap .article_item a {
+      display: block; }
+      .related-articles .article_item .eyecatch {
+        width: 100%;}
+      .related-articles .article_item .info {
+        width: 100%;
+        padding-top: 8px;}
+}
