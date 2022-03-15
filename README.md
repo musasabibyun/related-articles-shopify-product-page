@@ -1,61 +1,26 @@
-
-
-# Name（リポジトリ/プロジェクト/OSSなどの名前）
-
-分かりやすくてカッコイイ名前をつける（今回は"hoge"という名前をつける）
-
-"hoge"が何かを簡潔に紹介する
+# Name
+Shopifyにおける商品ページ内の関連記事セクション
 
 # DEMO
+実装した箇所は以下の画像の赤枠部です．
 
-"hoge"の魅力が直感的に伝えわるデモ動画や図解を載せる
+![商品ページ](https://user-images.githubusercontent.com/54626327/158376534-bd9cc981-5503-4473-80d6-780f84e2cafc.jpg)
 
 # Features
-
-"hoge"のセールスポイントや差別化などを説明する
+商品ページに，その商品に関連するブログ記事を表示させることができます．
 
 # Requirement
+使用テーマ: Dawn -4.0.0
 
-"hoge"を動かすのに必要なライブラリなどを列挙する
-
-* huga 3.5.2
-* hogehuga 1.0.2
-
-# Installation
-
-Requirementで列挙したライブラリなどのインストール方法を説明する
-
-```bash
-pip install huga_package
-```
-
-# Usage
-
-DEMOの実行方法など、"hoge"の基本的な使い方を説明する
-
-```bash
-git clone https://github.com/hoge/~
-cd examples
-python demo.py
-```
+Online Stone 2.0 未対応テーマでも使用することが可能です．
 
 # Note
+Qiita に実装方法についてまとめました．
 
-注意点などがあれば書く
+必要であればご参考ください．
+
+https://qiita.com/musasabi_byun/items/8d88e2cf2ad039075c68
 
 # Author
-
-作成情報を列挙する
-
-* 作成者
-* 所属
-* E-mail
-
-# License
-ライセンスを明示する
-
-"hoge" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
-
-社内向けなら社外秘であることを明示してる
-
-"hoge" is Confidential.
+* 作成者: 村上 俊太郎
+* E-mail: murakami.shushushun@gmail.com
