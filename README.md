@@ -17,7 +17,7 @@ Online Stone 2.0 未対応テーマでも使用することが可能です．
 # Note
 Qiita に実装方法についてまとめました．
 
-必要であればご参考ください．
+必要があればご参考ください．
 
 https://qiita.com/musasabi_byun/items/8d88e2cf2ad039075c68
 
