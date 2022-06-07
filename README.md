@@ -30,9 +30,4 @@ Qiita に実装方法についてまとめました．
 
 https://qiita.com/musasabi_byun/items/8d88e2cf2ad039075c68
 
-# Author
-
-* 作成者: 村上 俊太郎
-* E-mail: murakami.shushushun@gmail.com
-
 'related articles' is Confidental.
