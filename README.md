@@ -31,4 +31,4 @@ Qiita に実装方法についてまとめました．
 https://qiita.com/musasabi_byun/items/8d88e2cf2ad039075c68
 
 
-'related articles' is Confidental.
+**'related articles'** is Confidental.
